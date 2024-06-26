@@ -1,0 +1,292 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limita a 2 linhas */
+  -webkit-box-orient: vertical;
+}
+
+#repositorio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+#repos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+.repo-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.p{
+  text-align: left;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+#repo-name {
+  color: blue;
+  margin-right: 10px;
+}
+#descricao-repo {
+  aligntext: left ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-repo {
+  margin-bottom: 20px;
+}
+
+.repo-details {
+  margin-bottom: 20px;
+}
+
+.language,
+.star,
+.observer {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.repo-topics {
+  margin-bottom: 20px;
+}
+
+.repo-topics h3 {
+  margin-bottom: 10px;
+}
+
+.repo-topics ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repo-topics li {
+  margin-bottom: 5px;
+}
+.topic {
+  margin-bottom: 5px; 
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  text-align: center;
+}
+
+body, header, main, footer, aside, nav {
+  margin: 2px;
+  display: flex;
+  background: gray;
+}
+
+body {
+  background: white;
+  flex: 1;
+}
+
+header {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+#logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  flex: auto;
+  background: gray;
+  display: block;
+  margin-bottom: 10px;
+}
+
+aside {
+  flex: 0 1 200px;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.col{ 
+  
+  p{
+    margin-left: 10px;
+    
+  }
+}
+.Foto_do_perfil{
+  float: left;
+  margin-right: 10px;
+  }
+
+
+#repositorio{
+  flex-wrap: wrap;
+}
+
+#carrossel {
+  margin-top: 40px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  flex: 0 0 auto;
+  min-width: 300px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.slide h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.slide p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.slide a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.slide a:hover {
+  background-color: #0056b3;
+}
+
+
